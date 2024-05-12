@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 67.5%;
+}
+
+body {
+    background-color: #1F2833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.base {
+    width: 30vw;
+    height: 15vw;
+    background-color: #C5C6C7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innbase {
+    width: 95%;
+    height: 90%;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    font-size: 5rem;
+    color: #66FCF1;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
