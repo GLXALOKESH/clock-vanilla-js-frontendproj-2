@@ -49,16 +49,21 @@ body {
     font-weight: 500;
     font-style: normal;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 996px) {
     .num {
-        font-size: 4.5rem; /* Adjust font size for smaller screens */
+        font-size: 6rem; 
     }
 }
 
-/* Media query for even smaller screens */
+@media screen and (max-width: 768px) {
+    .num {
+        font-size: 4.2rem; 
+    }
+}
+
+
 @media screen and (max-width: 480px) {
     .num {
-        font-size: 3rem; /* Adjust font size for even smaller screens */
+        font-size: 2.5rem; 
     }
 }
