@@ -14,8 +14,8 @@ body {
 }
 
 .base {
-    width: 30vw;
-    height: 15vw;
+    width: 50vw;
+    height: 25vw;
     background-color: #C5C6C7;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -42,10 +42,23 @@ body {
 }
 
 .num {
-    font-size: 5rem;
+    font-size: 8rem;
     color: #66FCF1;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .num {
+        font-size: 4.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+    .num {
+        font-size: 3rem; /* Adjust font size for even smaller screens */
+    }
 }
